@@ -9,7 +9,6 @@ export default async function StatisticsCard({ name }) {
             return (
                 <div className="flex flex-col justify-center items-center p-3">
                     <h1 className="text-gray-50 text-4xl p-3">Usuário não encontrado</h1>
-                    <Link href='/' className="text-gray-50 text-xl border-1 rounded-2xl p-2 border-githover hover:bg-githover">Voltar</Link>
                 </div>
             )
         }
