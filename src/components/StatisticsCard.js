@@ -26,7 +26,7 @@ export default async function StatisticsCard({ name }) {
                     <h1 className="text-gray-50">Desde:<br /><span className="text-gray-400">{new Date(statistics.created_at).toLocaleDateString('pt-BR')}</span></h1>
                     <h1 className="text-gray-50">Ultima atualização:<br /><span className="text-gray-400">{new Date(statistics.updated_at).toLocaleDateString('pt-BR')}</span></h1>
                 </div>
-                <a href={statistics.html_url}>Visitar Perfil</a>
+                <a href={statistics.html_url} target="_blank">Visitar Perfil</a>
 
             </section>
         )
